@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dichotomy/static/css/main.19135b32.css",
+    "main.js": "/dichotomy/static/js/main.2fb645f6.js",
+    "static/js/453.90ef4d3e.chunk.js": "/dichotomy/static/js/453.90ef4d3e.chunk.js",
+    "index.html": "/dichotomy/index.html",
+    "main.19135b32.css.map": "/dichotomy/static/css/main.19135b32.css.map",
+    "main.2fb645f6.js.map": "/dichotomy/static/js/main.2fb645f6.js.map",
+    "453.90ef4d3e.chunk.js.map": "/dichotomy/static/js/453.90ef4d3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19135b32.css",
+    "static/js/main.2fb645f6.js"
+  ]
+}
