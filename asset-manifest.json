@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/dichotomy/static/css/main.19135b32.css",
-    "main.js": "/dichotomy/static/js/main.2fb645f6.js",
+    "main.css": "/dichotomy/static/css/main.3935f4cf.css",
+    "main.js": "/dichotomy/static/js/main.5c9ebba6.js",
     "static/js/453.90ef4d3e.chunk.js": "/dichotomy/static/js/453.90ef4d3e.chunk.js",
+    "static/media/card.png": "/dichotomy/static/media/card.6e9266b94f7002152a31.png",
+    "static/media/table.jpg": "/dichotomy/static/media/table.4bf39cc6e9f7492d485b.jpg",
     "index.html": "/dichotomy/index.html",
-    "main.19135b32.css.map": "/dichotomy/static/css/main.19135b32.css.map",
-    "main.2fb645f6.js.map": "/dichotomy/static/js/main.2fb645f6.js.map",
+    "main.3935f4cf.css.map": "/dichotomy/static/css/main.3935f4cf.css.map",
+    "main.5c9ebba6.js.map": "/dichotomy/static/js/main.5c9ebba6.js.map",
     "453.90ef4d3e.chunk.js.map": "/dichotomy/static/js/453.90ef4d3e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19135b32.css",
-    "static/js/main.2fb645f6.js"
+    "static/css/main.3935f4cf.css",
+    "static/js/main.5c9ebba6.js"
   ]
 }
