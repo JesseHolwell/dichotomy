@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+      width: 100vw;
+      height: 100vh;
+      background-image: url("table.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position:absolute;
+}

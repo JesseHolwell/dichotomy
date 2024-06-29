@@ -2,24 +2,59 @@
 
 .card-container {
     position: relative;
-    height: 200px;
+    height: 300px;
+}
+
+#word-card {
+    
+}
+
+.help-text {
+    color: #ddd;
+    font-family: verdana;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.card-background {
+
+}
+
+.card-image {
+    width:100%;
+}
+
+.card-body {
+    position:absolute;
+    width:100%;
+    height: 100%;
+    align-content: center;
+}
+
+.card-title {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.word {
+    text-transform: uppercase;
+    color:#eee;
+    text-shadow: #000 0 0 4px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+    width:50%;
+    letter-spacing: -1px;
 }
 
 .card {
     position: absolute;
     width: 100%;
     transition: transform 0.6s, opacity 0.6s;
+    box-shadow: #111 5px 5px 15px;
 }
 
 .card.slide-up {
     transform: translateY(-150%) rotate(-15deg);
     opacity: 0;
-}
-
-.word1 {
-    color: #007bff; /* Blue */
-}
-
-.word2 {
-    color: #dc3545; /* Red */
 }

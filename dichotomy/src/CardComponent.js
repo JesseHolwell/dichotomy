@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import $ from 'jquery';
 import './CardComponent.css'; // We'll create this CSS file for custom styles
+const card = require('./card.png');
 
 const wordPairs = [
     {"word1": "Introvert", "word2": "Extrovert"},
@@ -21,7 +22,8 @@ const CardComponent = () => {
     const [currentPair, setCurrentPair] = useState(getRandomPair());
 
     useEffect(() => {
-        $('#next-button').click(() => {
+        $('#word-card').click(() => {
+            $(".help-text").hide();
             $('#word-card').addClass('slide-up');
             
             setTimeout(() => {
@@ -37,14 +39,17 @@ const CardComponent = () => {
                 <div className="col-md-6">
                     <div className="card-container">
                         <div className="card text-center" id="word-card">
+                            <div className="card-background"><img src={card} className="card-image"/></div>
                             <div className="card-body">
                                 <h5 className="card-title" id="word-pair">
-                                    <span className="word1">{currentPair.word1}</span> - <span className="word2">{currentPair.word2}</span>
+                                    <span className="word word1">{currentPair.word1}</span><span className="word word2">{currentPair.word2}</span>
                                 </h5>
                             </div>
                         </div>
                     </div>
-                    <button className="btn btn-primary mt-3" id="next-button">Next</button>
+                    <div>
+                        <span class="help-text">tap the card</span>
+                    </div>
                 </div>
             </div>
         </div>
