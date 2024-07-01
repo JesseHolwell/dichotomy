@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.Banner {
+  margin-top:40px;
+}
+
+h1, h2, h3 {
+  color: #ddd;
+  --bs-heading-color: #aaa;
+}
